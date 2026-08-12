@@ -62,7 +62,7 @@ export default function CheckoutPage({ service_id, product_name, price = 0 }: Ch
                     {/* Left Column - Billing Details */}
                     <div className="lg:col-span-7 space-y-7 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
                         <div className="border-b border-neutral-200 pb-4">
-                            <h2 className="text-2xl font-bold text-neutral-800">Billing details</h2>
+                            <h2 className="text-2xl font-bold text-neutral-800">Informasi Pemesan</h2>
                         </div>
 
                         <div className="space-y-5">
@@ -116,11 +116,11 @@ export default function CheckoutPage({ service_id, product_name, price = 0 }: Ch
                     {/* Right Column - Order Summary (Desktop) */}
                     <div className="lg:col-span-5 relative hidden lg:block animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                         <div className="border-2 border-neutral-100 p-6 md:p-8 rounded-lg bg-white shadow-sm sticky top-6">
-                            <h2 className="text-2xl font-bold text-neutral-800 mb-6">Your order</h2>
+                            <h2 className="text-2xl font-bold text-neutral-800 mb-6">Pesanan Anda</h2>
 
                             <div className="space-y-4 text-neutral-700">
                                 <div className="flex justify-between border-b border-neutral-200 pb-4 font-bold text-neutral-900">
-                                    <span>Product</span>
+                                    <span>Produk</span>
                                     <span>Subtotal</span>
                                 </div>
 
