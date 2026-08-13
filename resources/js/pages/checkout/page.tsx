@@ -49,9 +49,9 @@ export default function CheckoutPage({ service_id, product_name, price = 0 }: Ch
             <Head title="Checkout" />
 
             {/* Header Branding */}
-            <header className="w-full py-4 px-6 bg-white border-b border-neutral-100 animate-fade-in-up">
+            <header className="w-full bg-white border-b border-neutral-100 animate-fade-in-up">
                 <div className="max-w-6xl mx-auto flex items-center">
-                    <img src="/logo.png" alt="KelasDigi" className="h-20 object-contain" />
+                    <img src="/logo.png" alt="KelasDigi" className="w-50 object-contain" />
                 </div>
             </header>
 
